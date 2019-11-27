@@ -36,3 +36,7 @@ Install dependencies in Py3.7 env
 Execute testing
  `python tester.py`
 
+Tensorboard Log: https://tensorboard.dev/experiment/ieKEqL2rQ3mD9vYFWCAF7w
+
+Training Log in tensorboard
+![Screenshot](https://github.com/goodrahstar/travel-nottravel/raw/master/data/Screenshot%202019-11-27%20at%2010.19.29%20AM.png)
