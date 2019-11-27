@@ -19,7 +19,7 @@ To build the model i have used Neural Network architecture with 1 hidden layer, 
 
 Provided raw data was transformed into featues with followong columns:
 
-- `Finaldata_after_encoding.csv` - The processed data is stored in this file with collowing features. This processed data is directly used into the model training process.
+- `Finaldata_after_encoding.csv` - The processed data is stored in this file with following features. This processed data is directly used into the model training process.
   * `num_adults` - number of adults
   * `num_children` - number of children
   * `days_before_plan` - number of days before the user is planning to book the flight
@@ -28,4 +28,11 @@ Provided raw data was transformed into featues with followong columns:
   * `origin_enc` - IATA airport code of the origin airport is encoded into numeric form
   * `destination_enc	` - IATA airport code of the destination airport is encoded into numeric form
   * `event_type_enc` - Label data `search` / `book` encoded into numeric form
+
+## Steps for execution
+Install dependencies in Py3.7 env
+ `pip install -r requirements.txt`
+
+Execute testing
+ `python tester.py`
 
